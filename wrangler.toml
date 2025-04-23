@@ -1,3 +1,12 @@
 name = "o-tyan64"
-compatibility_date = "2025-04-23"
-main = "index.html"
+type = "javascript"  # または 'javascript' または 'bundled'
+
+[build]
+command = "npm run build"  # ビルドコマンド
+
+[workers_dev]
+compatibility_flags = []
+
+[site]
+bucket = "./dist"  # 静的ファイルを配置するディレクトリ
+entry-point = "workers-site"
