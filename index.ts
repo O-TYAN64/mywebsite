@@ -6,12 +6,12 @@ export default {
     <head>
         <meta charset="utf-8">
         <title>My wonderful website</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/public/css/style.css">
     </head>
     <body>
         <h1>Welcome to my wonderful website</h1>
         <p>You will never find another Milk as cute as this</p>
-        <p><img src="img/milk.jpg" alt="Milk-chan's smile will save the world!!"/></p>
+        <p><img src="/public/img/milk.jpg" alt="Milk-chan's smile will save the world!!"/></p>
     </body>
 </html>
     `.trim();
