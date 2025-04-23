@@ -1,0 +1,6 @@
+name = "o-tyan64"
+type = "javascript"
+
+[site]
+bucket = "./public"
+entry-point = ""
