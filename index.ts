@@ -1,4 +1,4 @@
-// src/index.ts (デフォルトの静的配信に任せる)
+// index.ts (デフォルトの静的配信に任せる)
 import { getAssetFromKV } from "@cloudflare/kv-asset-handler";
 
 export default {
