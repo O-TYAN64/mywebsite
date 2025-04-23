@@ -1,3 +1,6 @@
+export default {
+  async fetch(request: Request): Promise<Response> {
+    const html = `
 <!doctype html>
 <html>
     <head>
@@ -11,3 +14,12 @@
         <p><img src="img/milk.jpg" alt="Milk-chan's smile will save the world!!"/></p>
     </body>
 </html>
+    `.trim();
+
+    return new Response(html, {
+      headers: {
+        'Content-Type': 'text/html; charset=UTF-8'
+      }
+    });
+  }
+}
