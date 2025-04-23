@@ -1,0 +1,8 @@
+{
+  "name": "o-tyan64",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cp -r * ./dist"
+  },
+  "dependencies": {}
+}
