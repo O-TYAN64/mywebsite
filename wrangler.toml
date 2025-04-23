@@ -1,6 +1,5 @@
 name = "o-tyan64"
-type = "javascript"
+compatibility_date = "2025-04-23"
 
 [site]
 bucket = "./public"
-entry-point = ""
