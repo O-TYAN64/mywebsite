@@ -10,7 +10,7 @@ export default {
     </head>
     <body>
         <h1>Welcome to my wonderful website</h1>
-        <p>You will never find another place as cool as this</p>
+        <p>You will never find another Milk as cute as this</p>
         <p><img src="img/milk.jpg" alt="Milk-chan's smile will save the world!!"/></p>
     </body>
 </html>
